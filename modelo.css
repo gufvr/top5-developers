@@ -1,0 +1,114 @@
+body {
+  background: rgba(3, 3, 3, 0.877);
+  background: url(_imgB/matrix.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font: bolder 18pt Arial, sans-serif;
+  color: rgb(238, 227, 227);
+}
+
+header {
+  color: #ffd700;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background: rgba(0, 14, 6, 0.651);
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+  text-indent: 15px;
+  text-justify: initial;
+}
+
+.btndbz {
+  width: 30%;
+  height: 1.9rem;
+  margin-top: 1.5rem;
+  border-radius: 0.8rem;
+  background: #f7cb0644;
+  border: solid 2px rgba(251, 255, 0, 0.507);
+  outline: 0;
+  padding: 0 1.6rem;
+  font: 1.6rem Titillium Web, sans-serifArchivo;
+  color: rgb(255, 230, 0);
+  margin-bottom: 0.8rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  -webkit-transition: 1s;
+  position: relative;
+  left: -45px;
+  margin-left: 70px;
+}
+
+.btndbz:hover {
+  background: #f7cb06a9;
+  width: 32%;
+
+  -webkit-transform: scale(1.2);
+  margin-bottom: 2rem;
+}
+
+div {
+  margin-bottom: 50px;
+  text-indent: 15px;
+  text-justify: auto;
+}
+
+img#bat {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 15pt;
+
+  -webkit-transition: all 0.3s ease-in;
+}
+
+img#bat:hover {
+  -webkit-transform: scale(1.3);
+}
+
+img#foto {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 15pt;
+
+  -webkit-transition: all 0.3s ease-in;
+}
+
+img#foto:hover {
+  -webkit-transform: scale(1.2);
+}
+
+footer#rodape {
+  width: 500px;
+  clear: both;
+  margin: auto;
+  border-top: 1px #ffd700 solid;
+  color: #ffd700;
+  margin-top: -80px;
+}
+
+footer#rodape p {
+  text-align: center;
+  margin: auto;
+  color: #ffd700;
+  text-shadow: 1px 1px 2px rgba(15, 15, 15, 0.568);
+}
+
+footer#rodape a {
+  color: #ffc836;
+}
+
+footer#rodape a:hover {
+  color: #af3d298e;
+  text-decoration: underline;
+}

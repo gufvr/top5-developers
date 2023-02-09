@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="_imgB/logo-icon.png" type="image/png" />
+  <title>Top 5 Maiores Programadores</title>
+  <link rel="stylesheet" href="modelo.css" />
+</head>
+
+<body>
+  <header></header>
+  <section>
+    <h1>Top 5 Programadores</h1>
+    <div>
+      <p>
+        Nome do Programador:
+        <input type="text" name="txt" id="txt" list="programadores" />
+        <input class="btndbz" type="button" value="Pesquise" onclick="info()" />
+        <a href=""> <button class="btndbz">Voltar</button></a>
+        <datalist id="programadores">
+          <option value="Alan Turing"></option>
+          <option value="Dennis Ritchie"></option>
+          <option value="Linus Torvalds"></option>
+          <option value="Bjarne Stroustrup"></option>
+          <option value="Tim Berners-Lee"></option>
+          <option value="Menções Honrosas"></option>
+        </datalist>
+      </p>
+    </div>
+    <div id="res">
+      <img src="_imgB/logo.png" id="bat" />
+    </div>
+    <div id="dados"></div>
+  </section>
+
+  <footer id="rodape">
+    <p>&copy; 2020 - by Gustavo Favero</p>
+  </footer>
+  <script src="Script.js"></script>
+</body>
+
+</html>
